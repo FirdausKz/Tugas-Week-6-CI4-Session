@@ -11,7 +11,7 @@ class AuthController extends BaseController
         {
             helper('form');
         }
-        public function login()
+    public function login()
 {
     if ($this->request->getPost()) {
         $username = $this->request->getVar('username');
